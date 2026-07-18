@@ -38,13 +38,11 @@ public:
                 }
             }
 
-            // If no swapping occurs, array is already sorted
             if (!swapped)
                 break;
         }
     }
 
-    // Display Array
     void display() const
     {
         cout << "Sorted Array : ";

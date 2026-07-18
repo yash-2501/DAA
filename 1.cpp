@@ -1,5 +1,12 @@
 // Write a program to sort given elements of an array in ascending order using bubble sort. Analyze the time complexity for best, average and worst case.
 
+/*
+Time Complexity : 
+    Best case is : O(n)
+    Average Case : O(n^2)
+    Worst Case : O(n^2)
+*/
+
 #include <iostream>
 #include <vector>
 
@@ -78,3 +85,5 @@ int main()
 
     return 0;
 }
+
+

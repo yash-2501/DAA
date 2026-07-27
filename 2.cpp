@@ -1,3 +1,12 @@
+//Write a program to sort given elements of an array in ascending order using selection sort. Analyze the time complexity for best, average and worst case.
+
+/*
+--> Time complexity :
+    Best case : O(n^2)
+    Average case : O(n^2)
+    Worst case : O(n^2)
+*/
+
 #include <iostream>
 using namespace std;
 

@@ -16,7 +16,6 @@ int main()
         cin >> arr[i];
     }
 
-    // Selection Sort
     for (int i = 0; i < n - 1; i++)
     {
         int minIndex = i;
@@ -29,7 +28,6 @@ int main()
             }
         }
 
-        // Swap
         int temp = arr[i];
         arr[i] = arr[minIndex];
         arr[minIndex] = temp;

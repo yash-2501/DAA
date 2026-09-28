@@ -1,0 +1,52 @@
+//Write a program to sort given elements of an array in ascending order using selection sort. Analyze the time complexity for best, average and worst case.
+
+/*
+--> Time complexity :
+    Best case : O(n^2)
+    Average case : O(n^2)
+    Worst case : O(n^2)
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+
+    cout << "Enter the number of elements: ";
+    cin >> n;
+
+    int arr[n];
+
+    cout << "Enter the array elements:\n";
+    for (int i = 0; i < n; i++)
+    {
+        cin >> arr[i];
+    }
+
+    for (int i = 0; i < n - 1; i++)
+    {
+        int minIndex = i;
+
+        for (int j = i + 1; j < n; j++)
+        {
+            if (arr[j] < arr[minIndex])
+            {
+                minIndex = j;
+            }
+        }
+
+        int temp = arr[i];
+        arr[i] = arr[minIndex];
+        arr[minIndex] = temp;
+    }
+
+    cout << "Sorted array in ascending order:\n";
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
+    }
+
+    return 0;
+}

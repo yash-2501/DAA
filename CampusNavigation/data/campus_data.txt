@@ -1,0 +1,21 @@
+# Campus Navigation Data
+# Format:
+# source,destination,distance
+
+0,1,100
+1,2,120
+2,3,80
+1,4,150
+4,6,100
+2,5,100
+3,7,120
+7,8,200
+6,9,150
+
+# Additional alternative routes
+
+0,4,220
+2,7,180
+5,7,160
+4,9,250
+3,5,130

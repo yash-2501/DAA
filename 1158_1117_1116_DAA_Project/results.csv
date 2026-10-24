@@ -1,0 +1,11 @@
+case,size,Naive,KMP,Rabin-Karp
+Random text,1000,0.0617,0.0718,0.1654
+Random text,5000,0.3352,0.2906,0.8151
+Random text,10000,0.6675,0.5745,1.5914
+Random text,50000,3.408,5.1918,13.1181
+Random text,100000,9.6517,5.8614,15.7729
+Worst case (aaa..ab),1000,2.2818,0.1063,0.1457
+Worst case (aaa..ab),5000,12.2314,0.5199,0.7267
+Worst case (aaa..ab),10000,25.9576,1.1451,1.4128
+Worst case (aaa..ab),50000,124.6228,5.4204,7.1669
+Worst case (aaa..ab),100000,250.7715,10.4345,13.9229

@@ -1,0 +1,1 @@
+Graphs consist of vertices connected by edges and they model roads, networks and social relationships. Shortest path algorithms such as Dijkstra find the cheapest route between two nodes in a weighted graph. Minimum spanning trees connect all nodes with the least total cost.
